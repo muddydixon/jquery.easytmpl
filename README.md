@@ -57,11 +57,11 @@ It's easy.
 API
 ====================
 * create Generator
-  var Gen = $.ezUnit(/* string */ name)
-  var Gen = $.ezUnit(/* string */ name, /* object */ global settings)
-  var Gen = $.ezUnit(/* string */ name, /* object */ global settings, /* object */ global events)
+ * var Gen = $.ezUnit(/* string */ name)
+ * var Gen = $.ezUnit(/* string */ name, /* object */ global settings)
+ * var Gen = $.ezUnit(/* string */ name, /* object */ global settings, /* object */ global events)
 * create Unit
-  new Gen()
-	new Gen(/* object */ settings)
-	new Gen(/* object */ settings, /* object */ events)
-  new Gen(/* string */ ajax url, /* function */ callback)	
+ * new Gen()
+ * new Gen(/* object */ settings)
+ * new Gen(/* object */ settings, /* object */ events)
+ * new Gen(/* string */ ajax url, /* function */ callback)	
